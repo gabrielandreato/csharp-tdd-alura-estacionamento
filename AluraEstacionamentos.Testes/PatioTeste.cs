@@ -32,10 +32,13 @@ namespace AluraEstacionamentos.Testes
         [Theory]
         [InlineData("André", "ABC-1234", "preto", "Gol")]
         [InlineData("João", "CVH-1224", "branco", "Uno")]
-        public void ValidaFaturamentoComVariosVeiculos(string proprietario, string placa, string cor, string modelo)
+        public void ValidaFaturamentoComVariosVeiculos(string proprietario,
+                                                        string placa,
+                                                        string cor,
+                                                        string modelo)
         {
 
         }
-        
+
     }
 }
