@@ -28,6 +28,14 @@ namespace AluraEstacionamentos.Testes
             // Assert 
             Assert.Equal(2, faturamento);
         }
+
+        [Theory]
+        [InlineData("André", "ABC-1234", "preto", "Gol")]
+        [InlineData("João", "CVH-1224", "branco", "Uno")]
+        public void ValidaFaturamentoComVariosVeiculos(string proprietario, string placa, string cor, string modelo)
+        {
+
+        }
         
     }
 }
