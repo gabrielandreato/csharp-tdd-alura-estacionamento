@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZjvP95gFpBhiBjxrACRlebbeQImllIuAAn9DRu6B2o4Ol7eJQbTj0YSMaL7lbsZ2PAoyuHPj1Cn0CLSkKZTd2A==",
+  "dgSpecHash": "M4pRh33QYjZktY2PYqYQ9mp5cqT/diB1EfbZhPXilXK+CCDR+TVf9Fa9L5xfgApUbgcdeC5PSbZ5le5b/jex1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabriel.andreato\\Dev\\estudo\\csharp-tdd\\AluraEstacionamentos.Testes\\AluraEstacionamentos.Testes.csproj",
   "expectedPackageFiles": [
@@ -95,10 +95,7 @@
     "C:\\Users\\gabriel.andreato\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\gabriel.andreato\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\gabriel.andreato\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\gabriel.andreato\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\gabriel.andreato\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\gabriel.andreato\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\gabriel.andreato\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\gabriel.andreato\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }
