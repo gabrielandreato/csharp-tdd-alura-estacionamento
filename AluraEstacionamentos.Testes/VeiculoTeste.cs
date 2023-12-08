@@ -111,7 +111,7 @@ namespace AluraEstacionamentos.Testes
                     () => new Veiculo().Placa = placa
                 );
 
-            Assert.Equal("O 4 caractere deve ser um hífen", mensagem.Message);
+            Assert.Equal("O 4 caractere deve ser um hifen", mensagem.Message);
         }
     }
 }
