@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HCm9mti+QoYB1KOIiut/pBhTsjQelJA2Y40K6TI2qlx3v7v4H2ChfDOjvaGA/gcE15Xc8mcI03577dOJUg877w==",
+  "dgSpecHash": "0WjSq7eaYGyYevkR+t5HGRHmdvEF+LdwZ9GxbWf6Wp+PSAhZHcyzwkx2y5J+xxWwRq5SdtPw+JNAf9D7+LaWYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\csharp-tdd-alura-estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
+  "projectFilePath": "C:\\Projetos\\MeusProjetos\\csharp-tdd-alura-estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

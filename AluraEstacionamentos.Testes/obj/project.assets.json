@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net7.0": {
       "coverlet.collector/3.0.2": {
         "type": "package",
         "build": {
@@ -1805,7 +1805,7 @@
       },
       "Alura.Estacionamento/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/Alura.Estacionamento.dll": {}
         },
@@ -6056,7 +6056,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net7.0": [
       "Alura.Estacionamento >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
@@ -6065,34 +6065,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\gabriel.andreato\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\csharp-tdd-alura-estacionamento\\AluraEstacionamentos.Testes\\AluraEstacionamentos.Testes.csproj",
+      "projectUniqueName": "C:\\Projetos\\MeusProjetos\\csharp-tdd-alura-estacionamento\\AluraEstacionamentos.Testes\\AluraEstacionamentos.Testes.csproj",
       "projectName": "AluraEstacionamentos.Testes",
-      "projectPath": "C:\\Users\\usuario\\source\\repos\\csharp-tdd-alura-estacionamento\\AluraEstacionamentos.Testes\\AluraEstacionamentos.Testes.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\source\\repos\\csharp-tdd-alura-estacionamento\\AluraEstacionamentos.Testes\\obj\\",
+      "projectPath": "C:\\Projetos\\MeusProjetos\\csharp-tdd-alura-estacionamento\\AluraEstacionamentos.Testes\\AluraEstacionamentos.Testes.csproj",
+      "packagesPath": "C:\\Users\\gabriel.andreato\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\MeusProjetos\\csharp-tdd-alura-estacionamento\\AluraEstacionamentos.Testes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabriel.andreato\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\usuario\\source\\repos\\csharp-tdd-alura-estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {
-              "projectPath": "C:\\Users\\usuario\\source\\repos\\csharp-tdd-alura-estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj"
+            "C:\\Projetos\\MeusProjetos\\csharp-tdd-alura-estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {
+              "projectPath": "C:\\Projetos\\MeusProjetos\\csharp-tdd-alura-estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj"
             }
           }
         }
@@ -6104,8 +6104,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6144,7 +6144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

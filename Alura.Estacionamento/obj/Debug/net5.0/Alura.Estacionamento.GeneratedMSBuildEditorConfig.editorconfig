@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Alura.Estacionamento
-build_property.ProjectDir = C:\Users\usuario\source\repos\csharp-tdd-alura-estacionamento\Alura.Estacionamento\
+build_property.ProjectDir = C:\Projetos\MeusProjetos\csharp-tdd-alura-estacionamento\Alura.Estacionamento\
