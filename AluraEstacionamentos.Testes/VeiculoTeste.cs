@@ -55,12 +55,7 @@ namespace AluraEstacionamentos.Testes
             // Assert
             Assert.Equal(-150, veiculo.VelocidadeAtual);
         }
-
-        [Fact(DisplayName = "Teste para exemplo de skip", Skip = "Teste ainda não implementado. Ignorar")]
-        public void ValidaNomeProprietario()
-        {
-
-        }
+        
 
         [Theory]
         [ClassData(typeof(VeiculoTeste))]
@@ -116,7 +111,7 @@ namespace AluraEstacionamentos.Testes
                     () => new Veiculo().Placa = placa
                 );
 
-            Assert.Equal("O 4° caractere deve ser um hífen", mensagem.Message);
+            Assert.Equal("O 4 caractere deve ser um hífen", mensagem.Message);
         }
     }
 }

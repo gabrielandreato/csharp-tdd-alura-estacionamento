@@ -42,14 +42,14 @@ namespace Alura.Estacionamento.Modelos
                 //checa o Hifem
                 if (value[3] != '-')
                 {
-                    throw new FormatException("O 4° caractere deve ser um hífen");
+                    throw new FormatException("O 4 caractere deve ser um hífen");
                 }
                 //checa se os 3 primeiros caracteres são numeros
                 for (int i = 4; i < 8; i++)
                 {
                     if (!char.IsDigit(value[i]))
                     {
-                        throw new FormatException("Do 5º ao 8º caractere deve-se ter um número!");
+                        throw new FormatException("Do 5 ao 8 caractere deve-se ter um número!");
                     }
                 }
                 _placa = value;
