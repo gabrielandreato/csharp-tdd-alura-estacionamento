@@ -2,13 +2,17 @@ name: Dotnet
 
 on:
   push:
-    branches: [ main ]
+    branches: [ '*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ '*' ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest    
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        dotnet-version: ['6.0.0', '7.0.0'] 
+        os: [ 'ubuntu-latest', 'ubuntu-18.04' ]
     steps:
     - uses: actions/checkout@v3  
     - name: Setup .NET
@@ -21,10 +25,11 @@ jobs:
       run: dotnet build --no-restore
   
   test:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        dotnet-version: ['6.0.0', '7.0.0']    
+        dotnet-version: ['6.0.0', '7.0.0'] 
+        os: [ 'ubuntu-latest', 'ubuntu-18.04' ]
     steps:
     - uses: actions/checkout@v3  
       with: 
