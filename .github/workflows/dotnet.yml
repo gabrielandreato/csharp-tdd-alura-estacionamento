@@ -36,5 +36,9 @@ jobs:
         dotnet-version: ${{ matrix.dotnet-version }}
     - name: Test
       run: dotnet test --no-build --verbosity normal
+
+  docker:
+    needs: build
+    uses: ./.github/workflows/Docker.yml
       
 
