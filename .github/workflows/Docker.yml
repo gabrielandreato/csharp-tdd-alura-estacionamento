@@ -29,7 +29,7 @@ jobs:
       uses: docker/build-push-action@v5.1.0
       with:
       # Build's context is the set of files located in the specified PATH or URL
-        context: .
+        context: ./Alura.Estacionamento/
       # Path to the Dockerfile
         file: ./Dockerfile
       # Push is a shorthand for --output=type=registry
