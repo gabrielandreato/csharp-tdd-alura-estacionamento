@@ -2,13 +2,13 @@ name: Dotnet
 
 on:
   push:
-    branches: [ main ]
+    branches: [ '*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ '*' ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest    
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3  
     - name: Setup .NET
@@ -19,6 +19,30 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
+
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.0.0
+      with:
+        name: dotnet_software
+        path: main
+          
+  
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        dotnet-version: ['6.0.0', '7.0.0'] 
+        os: [ 'ubuntu-latest', 'ubuntu-20.04' ]
+    steps:
+    - uses: actions/checkout@v3  
+      with: 
+        dotnet-version: ${{ matrix.dotnet-version }}
     - name: Test
       run: dotnet test --no-build --verbosity normal
+
+  docker:
+    needs: build
+    uses: ./.github/workflows/Docker.yml
+    secrets: inherit
+      
 
