@@ -15,7 +15,9 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
       with:
-        name: dotnet_application     
+        name: dotnet_application
+        path: /home/runner/work/csharp-tdd-alura-estacionamento/csharp-tdd-alura-estacionamento/Alura.Estacionamento/bin/Release/net7.0/
+
 
     - name: Docker Login
       uses: docker/login-action@v3.0.0
