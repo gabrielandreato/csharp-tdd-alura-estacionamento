@@ -27,7 +27,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: dotnet_application
-        path: /home/runner/work/DotNet6WithGithubActions/DotNet6WithGithubActions/release/
+        path: /home/runner/work/csharp-tdd-alura-estacionamento/csharp-tdd-alura-estacionamento/Alura.Estacionamento/bin/Release
           
   
   test:
