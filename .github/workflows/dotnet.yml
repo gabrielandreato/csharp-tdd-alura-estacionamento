@@ -20,11 +20,14 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
 
+    - name: Publish
+      run: dotnet publish DotNet6WithGithubActions/DotNet6WithGithubActions.csproj -c Release -o release — nologo
+
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v4.0.0
+      uses: actions/upload-artifact@v2
       with:
-        name: dotnet_software
-        path: main
+        name: dotnet_application
+        path: /home/runner/work/DotNet6WithGithubActions/DotNet6WithGithubActions/release/
           
   
   test:
