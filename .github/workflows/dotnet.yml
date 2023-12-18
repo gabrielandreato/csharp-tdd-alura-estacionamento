@@ -21,13 +21,13 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Publish
-      run: dotnet publish 'Alura.Estacionamento/Alura.Estacionamento.csproj' -c Release -o release 
+      run: dotnet publish 'Alura.Estacionamento/Alura.Estacionamento.csproj' -c Release -o release --nologo
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
       with:
         name: dotnet_application
-        path: /home/runner/work/csharp-tdd-alura-estacionamento/csharp-tdd-alura-estacionamento/Alura.Estacionamento/bin/Release
+        path: /home/runner/work/csharp-tdd-alura-estacionamento/release
           
   
   test:
